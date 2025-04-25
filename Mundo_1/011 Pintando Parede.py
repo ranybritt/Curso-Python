@@ -1,3 +1,10 @@
+''' 
+Exercício Python 11:
+Faça um programa que leia a largura e a altura de uma parede em metros,
+calcule a sua área e a quantidade de tinta necessária para pintá-la,
+sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+    Resolução:
+'''
 print('Seja bem vindo(a) a calculadora de tinta')
 print('Obs: Precisamos dos dados em metros.')
 

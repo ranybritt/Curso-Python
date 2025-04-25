@@ -1,3 +1,8 @@
+''' Exercício Python 19: 
+Um professor quer sortear um dos seus quatro alunos para apagar o quadro.
+Faça um programa que ajude ele, lendo o nome e escrevendo na tela o nome do escolhido.
+    Resolução:
+'''
 from random import choice
 print('Quem será o escolhido da vez?')
 n1 = str(input('Primeiro aluno: '))

@@ -1,3 +1,9 @@
+''' 
+Exercício Python 9: 
+Faça um programa que leia um número Inteiro qualquer.
+Mostre na tela a sua tabuada.
+    Resolução:
+'''
 n = int(input('Digite um número: '))
 
 print(f'A tabuada do número {n} é: ')

@@ -1,3 +1,9 @@
+''' 
+Exercício Python 006: 
+Crie um algoritmo que leia um número e 
+mostre o seu dobro, triplo e raiz quadrada.
+	Resolução:
+'''
 n = int(input('Digite um número inteiro: '))
 d = n*2
 t = n*3

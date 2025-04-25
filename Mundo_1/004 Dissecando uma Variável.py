@@ -1,3 +1,9 @@
+''' 
+Exercício Python 4: 
+Faça um programa que leia algo pelo teclado e mostre na tela 
+o seu tipo primitivo e todas as informações possíveis sobre ele.
+	Resolução:
+'''
 x = input('Digite algo:')
 print('O tipo primitivo é', type(x))
 print('Há espaço?', x.isspace())

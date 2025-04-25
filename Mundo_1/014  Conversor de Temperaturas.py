@@ -1,3 +1,8 @@
+''' Exercício Python 14:
+Escreva um programa que converta uma temperatura digitando em graus
+Celsius e converta para graus Fahrenheit.
+    Resolução:
+'''
 print('-'*25)
 print('Conversor de Temperatura')
 print('-'*25)
