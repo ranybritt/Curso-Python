@@ -15,7 +15,6 @@ print('''Forma do pagamento:
 [ 4 ] 3x ou mais no cartão ''')
 
 opcao = int(input('Qual das opçôes será? '))
-
 if opcao == 1:
     total = prod -(prod * 10 / 100)
     print('A forma de pagamento é à vista dinheiro/cheque.')

@@ -24,7 +24,6 @@ print("PÔ!")
 
 print(f'Você escolheu {lista[player]}.')
 print(f'O computador escolheu {lista[pc]}.')
-
 if pc == 0:
     if player == 0:
         print('EMPATOU!')
@@ -52,3 +51,4 @@ elif pc == 2:
         print('EMPATOU!')
     else:
         print('DADO INVÁLIDO.')
+        

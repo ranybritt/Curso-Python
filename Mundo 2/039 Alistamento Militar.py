@@ -10,12 +10,9 @@ from datetime import date
 atual = date.today().year
 nasc = int(input('Em que ano você nasceu? '))
 idade = atual - nasc
-
 if idade == 18: 
     print('Você deve se alistar imediatamente.')
 elif idade < 18:
     print(f'Você ainda não pode se alistar. No ano de {atual-(idade - 18)} você pode se alistar')
 else:
     print(f'Você deveria ter se alistado no ano {atual - (idade - 18)}.')
-
-

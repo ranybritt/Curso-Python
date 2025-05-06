@@ -12,7 +12,6 @@ from datetime import date
 atual = date.today().year
 nasc = int(input('Ano do nascimento do atleta: '))
 idade = atual - nasc
-
 if idade <= 9:
     print('O atleta participará da categoria MIRIM.')
 elif idade <= 14:

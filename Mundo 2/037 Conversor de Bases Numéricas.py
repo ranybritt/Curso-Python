@@ -5,15 +5,12 @@ peça para o usuário escolher qual será a base de conversão:
 	Resolução:
 '''
 n = int(input('Digite um número inteiro: '))
-
 print('\nEscolha qual será a base da conversão:')
 print('=' * 40)
 print('1 - Binário\n2 - Octal\n3 - Hexadecimal')
 print('=' * 40)
-
 opcao = int(input('Qual base de conversão? '))
 print('=' * 40)
-
 if opcao == 1:
     print(f'O número {n} convertido para binário é: {bin(n)[2:]}')
 elif opcao == 2:
@@ -22,3 +19,4 @@ elif opcao == 3:
     print(f'O número {n} convertido para hexadecimal é: {hex(n)[2:]}')
 else:
     print('Opção inválida.')
+    
