@@ -27,4 +27,3 @@ while True:
     else:
         print("Eita! Seu time não foi encontrado na tabela.")
         print("Provavelmente ele não foi selecionado ou a digitação está errada.")
-    
